@@ -1,0 +1,45 @@
+.logo{
+	width: 150px;
+    margin-top:15px;
+}
+.item{
+	line-height:36px !important;
+}
+.button{
+	margin-top: 20px;
+}
+.menu{
+	display: flex;
+	border: 1px solid #FFE9D3;
+	height: auto;
+}
+.menu h2{
+	background: #fdf4e5;
+	border-bottom: 1px solid #FFE9D3;
+	height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+}
+.menu div{
+	font-size: 12px;
+	border-right: 1px solid #FFE9D3;
+}
+.menu div:nth-child(3){
+	border-right:none;
+}
+.menu div ul {
+	height: 82px;
+}
+.menu div ul li{
+	height: 26px;
+    line-height: 26px;
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+.menu .menuLeft ul li{
+	width: 100%;
+}

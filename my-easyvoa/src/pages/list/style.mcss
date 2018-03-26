@@ -1,0 +1,30 @@
+.wrapper{
+	margin-top:20px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.nav{
+	clear:both;
+	background:#ccc;
+	border:1px solid #000;
+}
+.nav li{
+	float:left;
+	height:50px;
+	padding: 0 20px;
+	font-size:20px;
+	line-height:50px;
+	border-right:1px solid #000;
+	color:#f00;
+}
+ol li{
+	line-height:30px;
+	color:#666;
+}
+ol li:hover{
+	text-decoration:underline;
+}
